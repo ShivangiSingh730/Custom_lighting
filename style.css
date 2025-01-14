@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f4f4f4;
+    background-color: blue;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#bulbContainer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+}
+
+.bulb-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bulb {
+    width: 50px;
+    height: 80px;
+}
+
+.switch {
+    width: 40px;
+    height: 20px;
+    background: red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#doneBtn
+{
+    background-color: green;
+    border:none;
+    padding:0.4rem;
+    border-radius:5px;
+}
